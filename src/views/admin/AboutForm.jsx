@@ -21,7 +21,7 @@ export default function AboutForm() {
    const [submitting, setSubmitting] = useState(false);
 
   // --- BASE URL GAMBAR (Laravel) ---
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+  const IMAGE_BASE_URL = "/gambar/";
 
   // --- 1. FETCH DATA (JIKA EDIT) ---
   useEffect(() => {

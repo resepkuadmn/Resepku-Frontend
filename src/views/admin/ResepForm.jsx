@@ -48,7 +48,7 @@ export default function ResepForm() {
             cara_membuat: htmlToText(d.cara_membuat),
             gambar: null
         });
-        if (d.gambar) setImagePreview(`http://127.0.0.1:8000/gambar/${d.gambar}`);
+        if (d.gambar) setImagePreview(`/gambar/${d.gambar}`);
       });
     } else {
       // Jika tidak ada id (mode create/tambah), reset form dan gambar

@@ -10,7 +10,7 @@ export default function MenuGuest() {
   const [searchParams] = useSearchParams();
   const searchQuery = searchParams.get('q') || ''; 
 
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+    const IMAGE_BASE_URL = "/gambar/";
 
   useEffect(() => {
     axiosClient.get('/resep')

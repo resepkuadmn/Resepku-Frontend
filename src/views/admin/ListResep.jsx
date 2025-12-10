@@ -56,7 +56,7 @@ export default function ListResep() {
 
   const getImageUrl = (filename) => {
     if (!filename) return 'https://via.placeholder.com/150?text=No+Image';
-    return `http://127.0.0.1:8000/gambar/${filename}`;
+    return `/gambar/${filename}`;
   };
 
   // 2. Fungsi Hapus

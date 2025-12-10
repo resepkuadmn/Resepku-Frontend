@@ -7,7 +7,7 @@ export default function DetailResepGuest() {
   const [resep, setResep] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+    const IMAGE_BASE_URL = "/gambar/";
 
   useEffect(() => {
     axiosClient.get(`/resep/${id}`)

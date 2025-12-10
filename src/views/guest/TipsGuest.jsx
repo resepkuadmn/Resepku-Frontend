@@ -6,7 +6,7 @@ export default function TipsGuest() {
   const [loading, setLoading] = useState(true);
 
   // URL Gambar Backend (Pastikan port 8000)
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+  const IMAGE_BASE_URL = "/gambar/";
 
   useEffect(() => {
     axiosClient.get('/tips')

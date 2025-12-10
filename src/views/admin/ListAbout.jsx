@@ -12,7 +12,7 @@ export default function ListAbout() {
   const { showToast } = useStateContext();
 
   // --- DEFINIKAN BASE URL GAMBAR DARI LARAVEL ---
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+  const IMAGE_BASE_URL = "/gambar/";
 
   const getAbouts = () => {
     setLoading(true);

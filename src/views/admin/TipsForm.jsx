@@ -47,7 +47,7 @@ export default function TipsForm() {
             konten: htmlToText(d.konten), // Bersihkan HTML saat ditampilkan
             gambar: null
         });
-        if (d.gambar) setImagePreview(`http://127.0.0.1:8000/gambar/${d.gambar}`);
+        if (d.gambar) setImagePreview(`/gambar/${d.gambar}`);
       });
     } else {
       // Jika tidak ada id (mode create/tambah), reset form dan gambar

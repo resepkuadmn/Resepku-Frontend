@@ -11,8 +11,8 @@ export default function ListTips() {
   const navigate = useNavigate();
   const { showToast } = useStateContext();
 
-  // Base URL ke Server Laravel
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+  // Base URL ke Server Laravela
+  const IMAGE_BASE_URL = "/gambar/";
 
   const getTips = () => {
     setLoading(true);

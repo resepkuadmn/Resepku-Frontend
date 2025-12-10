@@ -4,7 +4,7 @@ import axiosClient from "../../axios-client";
 export default function AboutStories() {
   const [abouts, setAbouts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const IMAGE_BASE_URL = "http://127.0.0.1:8000/gambar/";
+  const IMAGE_BASE_URL = "/gambar/";
 
   useEffect(() => {
     axiosClient.get('/about')
